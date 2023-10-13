@@ -4,12 +4,12 @@
 void LCD_GPIO_Init(void)
 {
 	GPIO_InitTypeDef  GPIO_InitStructure;
- 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);	 //使能A端口时钟
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0|GPIO_Pin_1|GPIO_Pin_2|GPIO_Pin_3|GPIO_Pin_4;	 
+ 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);	 //使能A端口时钟
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4|GPIO_Pin_5|GPIO_Pin_6|GPIO_Pin_7|GPIO_Pin_9;	 
  	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;//速度50MHz
- 	GPIO_Init(GPIOA, &GPIO_InitStructure);	  //初始化GPIOA
- 	GPIO_SetBits(GPIOA,GPIO_Pin_0|GPIO_Pin_1|GPIO_Pin_2|GPIO_Pin_3|GPIO_Pin_4);
+ 	GPIO_Init(GPIOB, &GPIO_InitStructure);	  //初始化GPIOA
+ 	GPIO_SetBits(GPIOB,GPIO_Pin_4|GPIO_Pin_5|GPIO_Pin_6|GPIO_Pin_7|GPIO_Pin_9);
 }
 
 
@@ -111,6 +111,7 @@ void LCD_Address_Set(u16 x1,u16 y1,u16 x2,u16 y2)
 		LCD_WR_DATA(y1);
 		LCD_WR_DATA(y2);
 		LCD_WR_REG(0x2c);//储存器写
+	//	LCD_WR_REG(0x2c);//储存器写
 	}
 	else
 	{
@@ -133,8 +134,8 @@ void LCD_Init(void)
 	LCD_RES_Set();
 	delay_ms(100);
 	
-	LCD_BLK_Set();//打开背光
-  delay_ms(100);
+//	LCD_BLK_Set();//打开背光
+//  delay_ms(100);
 	
 	//************* Start Initial Sequence **********//
 	LCD_WR_REG(0x11); //Sleep out 
