@@ -417,6 +417,16 @@
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\LCD\lcd.c</FilePath>
             </File>
+            <File>
+              <FileName>Ws2812.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Ws2812.c</FilePath>
+            </File>
+            <File>
+              <FileName>Ws2812.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Ws2812.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

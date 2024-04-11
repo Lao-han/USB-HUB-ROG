@@ -5,7 +5,7 @@
 
 
 
-#define LED PAout(15)	// PA15
+#define LED PBout(3)	// PA15
 
 void LED_Init(void);
 
