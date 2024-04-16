@@ -1,6 +1,7 @@
 #include "lcd_init.h"
 #include "delay.h"
 
+
 void LCD_GPIO_Init(void)
 {
 	GPIO_InitTypeDef  GPIO_InitStructure;

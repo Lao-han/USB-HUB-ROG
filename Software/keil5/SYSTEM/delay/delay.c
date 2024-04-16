@@ -118,6 +118,10 @@ void delay_ms(u16 nms)
 	SysTick->CTRL&=~SysTick_CTRL_ENABLE_Msk;       //关闭计数器
 	SysTick->VAL =0X00;       //清空计数器	  	    
 } 
+
+void delay_ns(u32 nus){        //延时程序n为1时大概延时时间为370ns左右
+	while(nus--);
+}
 #endif
 
 

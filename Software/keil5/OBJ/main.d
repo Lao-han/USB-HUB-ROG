@@ -16,3 +16,4 @@
 ..\obj\main.o: ..\HARDWARE\LCD\lcd_init.h
 ..\obj\main.o: ..\HARDWARE\LCD\lcd.h
 ..\obj\main.o: ..\HARDWARE\LCD\pic.h
+..\obj\main.o: ws2812.h
