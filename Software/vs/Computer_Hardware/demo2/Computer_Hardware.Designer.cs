@@ -60,7 +60,7 @@
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(180, 0);
+            this.ClientSize = new System.Drawing.Size(295, 39);
             this.Controls.Add(this.label2);
             this.Name = "Form1";
             this.ResumeLayout(false);
