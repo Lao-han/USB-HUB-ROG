@@ -1901,9 +1901,9 @@
       </Doc>
       <Doc>
         <Name>.\main.c</Name>
-        <ColumnNumber>0</ColumnNumber>
+        <ColumnNumber>34</ColumnNumber>
         <TopLine>11</TopLine>
-        <CurrentLine>12</CurrentLine>
+        <CurrentLine>33</CurrentLine>
         <Folding>1</Folding>
         <ContractedFolders></ContractedFolders>
         <PaneID>0</PaneID>
@@ -1955,9 +1955,9 @@
       </Doc>
       <Doc>
         <Name>..\FreeRTOS\include\FreeRTOS.h</Name>
-        <ColumnNumber>47</ColumnNumber>
-        <TopLine>215</TopLine>
-        <CurrentLine>253</CurrentLine>
+        <ColumnNumber>6</ColumnNumber>
+        <TopLine>236</TopLine>
+        <CurrentLine>268</CurrentLine>
         <Folding>1</Folding>
         <ContractedFolders></ContractedFolders>
         <PaneID>0</PaneID>

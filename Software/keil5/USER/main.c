@@ -21,6 +21,7 @@ By Mr.Han 2024.4.10
 #include "lcd.h"
 #include "pic.h"
 #include "ws2812.h"
+#include "FreeRTOS.h"
 int main(void)
 {
 	u8 i,j;

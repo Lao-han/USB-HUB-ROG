@@ -17,3 +17,11 @@
 ..\obj\main.o: ..\HARDWARE\LCD\lcd.h
 ..\obj\main.o: ..\HARDWARE\LCD\pic.h
 ..\obj\main.o: ws2812.h
+..\obj\main.o: ..\FreeRTOS\include\FreeRTOS.h
+..\obj\main.o: E:\Study\Study_app\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\main.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+..\obj\main.o: ..\FreeRTOS\include\projdefs.h
+..\obj\main.o: ..\FreeRTOS\include\portable.h
+..\obj\main.o: ..\FreeRTOS\include\deprecated_definitions.h
+..\obj\main.o: ..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+..\obj\main.o: ..\FreeRTOS\include\mpu_wrappers.h
